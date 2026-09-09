@@ -1,0 +1,7 @@
+{
+  "name": "EDUVISTA CBSE Academic Engine 2026",
+  "description": "Comprehensive School ERP & Academic Learning Management System for CBSE Affiliated Institutions with Admin Dashboard, Teacher Workspace, and Student/Parent Hub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

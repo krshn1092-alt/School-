@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUVISTA CBSE Academic Engine 2026</title>
+    <meta name="description" content="Next-Gen CBSE School ERP & Academic LMS with Dynamic Parent Student-Finder, CCE Gradebook, and Fee Pipeline." />
+    <meta property="og:title" content="EDUVISTA CBSE Academic Engine 2026" />
+    <meta property="og:description" content="Next-Gen CBSE School ERP & Academic LMS with Dynamic Parent Student-Finder, CCE Gradebook, and Fee Pipeline." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      @media print {
+        body * { visibility: hidden; }
+        #printable-area, #printable-area * { visibility: visible; }
+        #printable-area {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          background: white !important;
+          color: black !important;
+        }
+        .no-print { display: none !important; }
+      }
+      ::-webkit-scrollbar { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: #090d16; }
+      ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #334155; }
+    </style>
+  </head>
+  <body class="bg-[#090d16] text-slate-100 font-sans antialiased min-h-screen w-full flex flex-col overflow-y-auto">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
